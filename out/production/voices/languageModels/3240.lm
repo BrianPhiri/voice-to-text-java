@@ -1,0 +1,71 @@
+Language model created by QuickLM on Tue May 22 11:24:38 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=19
+ngram 3=14
+
+\1-grams:
+-0.9823 </s> -0.3010
+-0.9823 <s> -0.2533
+-1.6812 A -0.2919
+-1.6812 BOOM -0.2533
+-1.6812 CAN -0.2825
+-1.6812 DOES -0.2825
+-1.6812 HEAR -0.2919
+-1.6812 HELLO -0.2919
+-1.6812 IS -0.2919
+-1.3802 IT -0.2825
+-1.6812 ME? -0.2533
+-1.6812 TEST -0.2533
+-1.6812 THIS -0.2919
+-1.6812 WORK? -0.2533
+-1.6812 WORLD -0.2533
+
+\2-grams:
+-1.0000 <s> BOOM 0.0000
+-1.0000 <s> CAN 0.0000
+-1.0000 <s> DOES 0.0000
+-1.0000 <s> HELLO 0.0000
+-1.0000 <s> THIS 0.0000
+-0.3010 A TEST 0.0000
+-0.3010 BOOM </s> -0.3010
+-0.3010 CAN IT -0.1761
+-0.3010 DOES IT -0.1761
+-0.3010 HEAR ME? 0.0000
+-0.3010 HELLO WORLD 0.0000
+-0.3010 IS A 0.0000
+-0.6021 IT HEAR 0.0000
+-0.6021 IT WORK? 0.0000
+-0.3010 ME? </s> -0.3010
+-0.3010 TEST </s> -0.3010
+-0.3010 THIS IS 0.0000
+-0.3010 WORK? </s> -0.3010
+-0.3010 WORLD </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BOOM </s>
+-0.3010 <s> CAN IT
+-0.3010 <s> DOES IT
+-0.3010 <s> HELLO WORLD
+-0.3010 <s> THIS IS
+-0.3010 A TEST </s>
+-0.3010 CAN IT HEAR
+-0.3010 DOES IT WORK?
+-0.3010 HEAR ME? </s>
+-0.3010 HELLO WORLD </s>
+-0.3010 IS A TEST
+-0.3010 IT HEAR ME?
+-0.3010 IT WORK? </s>
+-0.3010 THIS IS A
+
+\end\
